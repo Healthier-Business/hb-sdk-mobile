@@ -1,0 +1,30 @@
+{
+  "name": "@healthier-business/hub-sdk-react-native",
+  "version": "0.1.0",
+  "description": "Shows a Healthier Business course or test in a React Native app. It opens a page of your own website in a web view and gives your app the events.",
+  "license": "MIT",
+  "author": "Sanchit Patil",
+  "homepage": "https://dev.hbcompliance.co.uk/sdk-embedding-mobile-apps",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.72",
+    "react-native-webview": ">=13"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "react": "^18.3.1",
+    "react-native": "^0.76.0",
+    "react-native-webview": "13.12.5",
+    "typescript": "^5.6.0"
+  }
+}
