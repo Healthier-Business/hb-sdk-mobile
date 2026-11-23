@@ -1,0 +1,17 @@
+name: hb_embed
+description: Shows a Healthier Business course or test in a Flutter app. It opens a page of your own website in a web view and gives your app the events.
+version: 0.1.0
+homepage: https://dev.hbcompliance.co.uk/sdk-embedding-mobile-apps
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.9.0
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
